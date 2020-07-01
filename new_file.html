@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			img{
+				width: 400px;
+				height: auto;
+				display: block;
+				margin: 0 auto;
+				transition: all 3s;
+			}
+			img:hover{
+				-webkit-filter: none;
+			}
+			.img1{
+				-webkit-filter: grayscale(1);
+				
+			}
+			.img2{
+				-webkit-filter:brightness(1) ;
+			}
+			.img3{
+				-webkit-filter: sepia(1);
+			}
+			.img4{
+				/*模糊  blur(?px)*/
+				-webkit-filter: blur(5px);
+			}
+			.img5{
+				/*对比度 conteast(1-5)*/
+				-webkit-filter: contrast(5);
+			}
+			.img6{
+				/*饱和度*/
+				-webkit-filter: saturate(1);
+			}
+			.img7{
+				/*胶片底色效果*/
+				-webkit-filter: invert(1);
+			}
+			.img8{
+				/*色相旋转*/
+				-webkit-filter: hue-rotate(9deg);
+			}
+		</style>
+	</head>
+	<body>
+		<img class="img1" src="img/0.jpg" >
+		<img class="img2" src="img/0.jpg" >
+		<img class="img3" src="img/0.jpg" >
+		<img class="img4" src="img/0.jpg" >
+		<img class="img5" src="img/0.jpg" >
+		<img class="img6" src="img/0.jpg" >
+		<img class="img7" src="img/0.jpg" >
+		<img class="img8" src="img/0.jpg" >
+	</body>
+</html>
